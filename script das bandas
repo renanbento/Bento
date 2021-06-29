@@ -1,0 +1,167 @@
+set palette defined (0 0 0 0.9, 1 0 0 1, 2 0 0.5 1, 3 0 1 1, 4 0.5 1 0.5, 5 1 1 0, 6 1 0.5 0, 7 1 0 0, 8 0.9 0 0)
+set lmargin at screen 0.10
+set rmargin at screen 0.90
+set bmargin at screen 0.30
+set tmargin at screen 0.70
+set grid front ls 8
+set yrange [ -0.01 : 0.01 ]
+set tics font ' ,10'
+set cbtics ('1' 1, '0' 0, '-1' -1)
+set cblabel ('') font ' ,30' offset 3,0,0
+set xrange [ -1.5 : 1.5 ]
+set ytics (-0.01, 0 , 0.01)
+set xtics (-1.23,-0.73, -0.55,-0.05, ' ' 0.05)
+set ylabel "{/: E/t }" font 'Linux Biolinum O,15'  offset 3,0,0
+set xlabel "{/Symbol m}"  font 'Linux Biolinum O,15'  offset 0,0,0
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/N100.dat' u 1:2:3  w points pointtype 7 ps 0.6 lw 2 palette t " "
+set terminal pdf
+set output "N80zoomfinal.pdf"
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/N100.dat' u 1:2:3  w points pointtype 7 ps 0.2 lw 2 palette t " "
+set output 
+
+
+
+
+set palette defined (0 0 0 0.9, 1 0 0 1, 2 0 0.5 1, 3 0 1 1, 4 0.5 1 0.5, 5 1 1 0, 6 1 0.5 0, 7 1 0 0, 8 0.9 0 0)
+set lmargin at screen 0.10
+set rmargin at screen 0.90
+set bmargin at screen 0.30
+set tmargin at screen 0.70
+set grid front ls 8 
+set yrange [ -0.1 : 0.1]
+set tics font ' ,10'
+set cbtics ('1' 1, '0' 0, '-1' -1)
+set cblabel ('') font ' ,30' offset 3,0,0
+set xrange [ -1.5 : 1.5 ]
+set ytics (-0.1, 0 , 0.1)
+set xtics (-1.23,-0.73, -0.55,-0.05, ' ' 0.05)
+set ylabel "{/: E/t }" font 'Linux Biolinum O,15'  offset 3,0,0
+set xlabel "{/Symbol m}"  font 'Linux Biolinum O,15'  offset 0,0,0
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/N100.dat' u 1:2:3  w points pointtype 7 ps 0.3 lw 2 palette t " "
+set terminal pdf
+set output "N80final.pdf"
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/N100.dat' u 1:2:3  w points pointtype 7 ps 0.08 lw 2 palette t " "
+set output 
+
+
+
+set palette defined (0 0 0 0.9, 1 0 0 1, 2 0 0.5 1, 3 0 1 1, 4 0.5 1 0.5, 5 1 1 0, 6 1 0.5 0, 7 1 0 0, 8 0.9 0 0)
+set lmargin at screen 0.15
+set rmargin at screen 0.85
+set bmargin at screen 0.20
+set tmargin at screen 0.90
+set yrange [ -1 : 1 ]
+set tics font ' ,30'
+set cbtics ('1' 1, '0' 0, '-1' -1)
+set cblabel ('') font ' ,30' offset 3,0,0
+set xrange [ -3.14 : 3.14 ]
+set ytics (-1, 0 , 1)
+set xtics ('-{/Symbol p}'-3.14 ,0,'{/Symbol p}' 3.14)
+set ylabel "{/: E/t }" font 'Linux Biolinum O,30'  offset -3,0,0
+set xlabel "{/: k_x a}"  font 'Linux Biolinum O,30'  offset 3,-1,0
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_150.dat' u 1:2:3  w points pointtype 7 ps 0.1 lw 2 palette t " "
+set terminal pdf
+set output "N2BAND_150.pdf"
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_150.dat' u 1:2:3  w points pointtype 7 ps 0.1 lw 2 palette t " "
+set output
+
+
+set palette defined (0 0 0 0.9, 1 0 0 1, 2 0 0.5 1, 3 0 1 1, 4 0.5 1 0.5, 5 1 1 0, 6 1 0.5 0, 7 1 0 0, 8 0.9 0 0)
+set lmargin at screen 0.15
+set rmargin at screen 0.85
+set bmargin at screen 0.20
+set tmargin at screen 0.90
+set yrange [ -1 : 1 ]
+set tics font ' ,30'
+set cbtics ('1' 1, '0' 0, '-1' -1)
+set cblabel ('') font ' ,30' offset 3,0,0
+set xrange [ -3.14 : 3.14 ]
+set ytics (-1, 0 , 1)
+set xtics ('-{/Symbol p}'-3.14 ,0,'{/Symbol p}' 3.14)
+set ylabel "{/: E/t }" font 'Linux Biolinum O,30'  offset -3,0,0
+set xlabel "{/: k_x a}"  font 'Linux Biolinum O,30'  offset 3,-1,0
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_123.dat' u 1:2:3  w points pointtype 7 ps 0.1 lw 2 palette t " "
+set terminal pdf
+set output "N2BAND_123.pdf"
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_123.dat' u 1:2:3  w points pointtype 7 ps 0.1 lw 2 palette t " "
+set output 
+
+set palette defined (0 0 0 0.9, 1 0 0 1, 2 0 0.5 1, 3 0 1 1, 4 0.5 1 0.5, 5 1 1 0, 6 1 0.5 0, 7 1 0 0, 8 0.9 0 0)
+set lmargin at screen 0.15
+set rmargin at screen 0.85
+set bmargin at screen 0.20
+set tmargin at screen 0.90
+set yrange [ -1 : 1 ]
+set tics font ' ,30'
+set cbtics ('1' 1, '0' 0, '-1' -1)
+set cblabel ('') font ' ,30' offset 3,0,0
+set xrange [ -3.14 : 3.14 ]
+set ytics (-1, 0 , 1)
+set xtics ('-{/Symbol p}'-3.14 ,0,'{/Symbol p}' 3.14)
+set ylabel "{/: E/t }" font 'Linux Biolinum O,30'  offset -3,0,0
+set xlabel "{/: k_x a}"  font 'Linux Biolinum O,30'  offset 3,-1,0 
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_073.dat' u 1:2:3  w points pointtype 7 ps 0.1 lw 2 palette t " "
+set terminal pdf
+set output "N2BAND_073.pdf"
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_073.dat' u 1:2:3  w points pointtype 7 ps 0.1 lw 2 palette t " "
+set output 
+
+set palette defined (0 0 0 0.9, 1 0 0 1, 2 0 0.5 1, 3 0 1 1, 4 0.5 1 0.5, 5 1 1 0, 6 1 0.5 0, 7 1 0 0, 8 0.9 0 0)
+set lmargin at screen 0.15
+set rmargin at screen 0.85
+set bmargin at screen 0.20
+set tmargin at screen 0.90
+set yrange [ -2 : 2 ]
+set tics font ' ,30'
+set cbtics ('1' 1, '0' 0, '-1' -1)
+set cblabel ('') font ' ,30' offset 3,0,0
+set xrange [ -3.14 : 3.14 ]
+set ytics (-1, 0 , 1)
+set xtics ('-{/Symbol p}'-3.14 ,0,'{/Symbol p}' 3.14)
+set ylabel "{/: E/t }" font 'Linux Biolinum O,30'  offset -3,0,0
+set xlabel "{/: k_x a}"  font 'Linux Biolinum O,30'  offset 3,-1,0
+plot'/home/bento/Dropbox/Programa zheev/NANO2/banda_spin_053.dat' u 1:2:3  w points pointtype 7 ps 1.1 lw 2 palette t " "
+set terminal pdf
+set output "N2BAND_055.pdf"
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_055.dat' u 1:2:3  w points pointtype 7 ps 0.1 lw 2 palette t " "
+set output
+
+set palette defined (0 0 0 0.9, 1 0 0 1, 2 0 0.5 1, 3 0 1 1, 4 0.5 1 0.5, 5 1 1 0, 6 1 0.5 0, 7 1 0 0, 8 0.9 0 0)
+set lmargin at screen 0.15
+set rmargin at screen 0.85
+set bmargin at screen 0.20
+set tmargin at screen 0.90
+set yrange [ -1 : 1 ]
+set tics font ' ,30'
+set cbtics ('1' 1, '0' 0, '-1' -1)
+set cblabel ('') font ' ,30' offset 3,0,0
+set xrange [ -3.14 : 3.14 ]
+set ytics (-1, 0 , 1)
+set xtics ('-{/Symbol p}'-3.14 ,0,'{/Symbol p}' 3.14)
+set ylabel "{/: E/t }" font 'Linux Biolinum O,30'  offset -3,0,0
+set xlabel "{/: k_x a}"  font 'Linux Biolinum O,30'  offset 3,-1,0
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_005.dat' u 1:2:3  w points pointtype 7 ps 0.1 lw 2 palette t " "
+set terminal pdf
+set output "N2BAND_005.pdf"
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_005.dat' u 1:2:3  w points pointtype 7 ps 0.1 lw 2 palette t " "
+set output
+
+set palette defined (0 0 0 0.9, 1 0 0 1, 2 0 0.5 1, 3 0 1 1, 4 0.5 1 0.5, 5 1 1 0, 6 1 0.5 0, 7 1 0 0, 8 0.9 0 0)
+set lmargin at screen 0.15
+set rmargin at screen 0.85
+set bmargin at screen 0.20
+set tmargin at screen 0.90
+set yrange [ -1 : 1 ]
+set tics font ' ,30'
+set cbtics ('1' 1, '0' 0, '-1' -1)
+set cblabel ('') font ' ,30' offset 3,0,0
+set xrange [ -3.14 : 3.14 ]
+set ytics (-1, 0 , 1)
+set xtics ('-{/Symbol p}'-3.14 ,0,'{/Symbol p}' 3.14)
+set ylabel "{/: E/t }" font 'Linux Biolinum O,30'  offset -3,0,0
+set xlabel "{/: k_x a}"  font 'Linux Biolinum O,30'  offset 3,-1,0
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_045' u 1:2:3  w points pointtype 7 ps 0.2 lw 2 palette t " "
+set terminal pdf
+set output "N2BAND_045.pdf"
+plot'/home/grunge/Dropbox/Programa zheev/NANO2/banda_spin_045.dat' u 1:2:3  w points pointtype 7 ps 0.1 lw 2 palette t " "
+set output
